@@ -1,0 +1,28 @@
+body{
+    background-image: url("/Users/aamir22188/Desktop/Coding/Triviagame/assets/images/art_wallpaper____by_mat3jko.jpg");
+    background-position: center;
+    background-size : 1080px 900px;
+     
+}
+
+.jumbotron{
+    text-align: center;
+    height: 600px;
+    padding: 1000px;
+    margin: 100px;
+}
+
+
+#startButton{
+    top: right;
+    color: black;
+    margin-left: 650px;
+    margin-top: -650px;
+    padding: 25px;
+    left: 100px;
+}
+
+.btn-primary{
+    color: red;
+}
+
