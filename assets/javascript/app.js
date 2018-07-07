@@ -7,6 +7,9 @@ var correctAnswer = false;
 var wrongAnswer = false;
 var gameTimer = 30;
 var countDownClock
+var message
+
+
 
 console.log(triviaQuestions);
 console.log(triviaAnswers);
