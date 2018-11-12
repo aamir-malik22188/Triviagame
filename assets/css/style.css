@@ -1,28 +1,44 @@
 body{
-    background-image: url("/Users/aamir22188/Desktop/Coding/Triviagame/assets/images/art_wallpaper____by_mat3jko.jpg");
-    background-position: center;
-    background-size : 1080px 900px;
-     
-}
+    background: url("https://images.unsplash.com/photo-1524014482380-0988169f598d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0d12bb00812a6f0842ef6c728f1e40d9&auto=format&fit=crop&w=1350&q=80");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
 .jumbotron{
-    text-align: center;
-    height: 600px;
-    padding: 1000px;
-    margin: 100px;
+    margin: 150px;
+    padding: 250px;
+    background-color: lightgrey;
 }
 
+#gameTitle{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 0px;
+    font-size: 3em;;
+}
 
 #startButton{
-    top: right;
-    color: black;
-    margin-left: 650px;
-    margin-top: -650px;
-    padding: 25px;
-    left: 100px;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    font-size: 1.5em;
+    
 }
 
-.btn-primary{
-    color: red;
+.row{
+    justify-content: center;
+    display: flex;
 }
 
+#triviaQuestions, #triviaResults{
+    font-size: 1.5em;
+}
+
+#quizTimer{
+    font-size: 1.2em;
+}

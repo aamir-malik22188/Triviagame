@@ -4,21 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/javascript/app.js"></script>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <script
-        src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
  
-
     <title>Art Trivia</title>
 
 
 </body>
 </html>
-    <title>Trivigame</title>
+    <title>Art Trivia Game</title>
    
 </head>
 <body>
@@ -26,32 +19,46 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-          <h1 class="display-4" id="gameTitle">Triviagame</h1>
-          <p class="lead"></p>
+                    <h1 class="display-4" id="gameTitle">Art Trivia Game</h1>
+                        <p class="lead"></p>
+                </div>
+            </div>
         </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div id="Quiz">
+                    <p id="quizTimer" class="lead">Remaining Time: <span id="timer"></span></p>
+                </div>
+            </div>
         </div>
+        <div class="row">
+            <div class="col-12">
+                <div id="triviaQuestions"></div>
+            </div>   
         </div>
-    </div>
-<div class="container-fluid">
-    <div class="row">
-        <div clas="col-2">
-            <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off" id="startButton">
-                         Start Trivia
-            </button>
+        <div class="row">
+                <div class="col-12">
+                    <div id="triviaResults"></div>
+                </div>   
+            </div>
+        <div class="row">
+                <div id="choices" class="text-center">
+                  <button id="startButton" class="btn btn-info btn-lg">Begin Trivia</button>
+                  <div id="choices"></div>
+                </div>
         </div>
-    </div>
-
-</div>
-<div class="container">
-    <div id=timeRemaining></div>
-    <div id=currentQuestion></div>
-    <div class="questions"></div>
-    <div class="answers"></div>
-    
-</div>
+    </div> 
 
 
 
+<!-- Jquery -->
+<!-- jQuery CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Bootstrap CDN -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- TRIVIA APP JS -->
+<script src="./assets/javascript/app.js"></script>  
 
           
     
