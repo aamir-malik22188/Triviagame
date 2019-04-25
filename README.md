@@ -1,5 +1,5 @@
 # Triviagame
-One Paragraph of project description goes here
+The purpose of this project was to give the user the ability to add and remove train schedules. The project also utilizes Firebase and Momentjs for 
 
 Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -34,6 +34,8 @@ Deployment
 Add additional notes about how to deploy this on a live system
 
 Built With
+Standard HTML, CSS, JavaScript
+
 Dropwizard - The web framework used
 Maven - Dependency Management
 ROME - Used to generate RSS Feeds
